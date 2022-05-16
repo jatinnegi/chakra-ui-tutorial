@@ -66,6 +66,7 @@ const Details: React.FC = () => {
         </GridItem>
         <GridItem colSpan={2}>
           <Button
+            variant="primary"
             w="full"
             isLoading={isLoading}
             onClick={() => {
